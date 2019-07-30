@@ -11,7 +11,7 @@ If you are cloning this repository, please create `environments/environment.prod
 
 ```typescript
 export const environment = {
-  production: true,
+  production: true|false,
   cloudName: '',
   uploadPreset: '',
   firebase: {
